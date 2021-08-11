@@ -51,6 +51,9 @@ For good practice for Python package management, it is recommended to use virtua
     git clone --recursive git@github.com:pzxszbry/dex-ycb-toolkit.git
     cd dex-ycb-toolkit
     ```
+
+2. Install the dex-ycb-toolkit package and dependencies:
+
     ```Shell
     # create conda env
     conda create -n dexycb python=3.8
@@ -61,6 +64,7 @@ For good practice for Python package management, it is recommended to use virtua
         pytorch-gpu==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 \
         -c pytorch \
         -c conda-forge
+        
     # install packages
     conda install \
         tqdm \
@@ -86,22 +90,6 @@ For good practice for Python package management, it is recommended to use virtua
         pyrender \
         glumpy \
         chumpy
-
-2. Install the dex-ycb-toolkit package and dependencies:
-
-    ```Shell
-    # Install dex-ycb-toolkit
-    pip install -e .
-
-    # Install bop_toolkit dependencies
-    cd bop_toolkit
-    pip install -r requirements.txt
-    cd ..
-
-    # Install manopth
-    cd manopth
-    pip install -e .
-    cd ..
     ```
 
 3. Download the DexYCB dataset from the [project site](https://dex-ycb.github.io).
