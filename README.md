@@ -93,7 +93,7 @@ For good practice for Python package management, it is recommended to use virtua
     ```
     or install from the yaml file directly:
     ```shell
-    conda env create --name <your_env_name>  --file Research/dex-ycb-toolkit/coda_env_ycb.yml
+    conda env create --name <your_env_name>  --file Research/dex-ycb-toolkit/conda_env_ycb.yml
     ```
 
 3. Download the DexYCB dataset from the [project site](https://dex-ycb.github.io).
