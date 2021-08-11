@@ -48,9 +48,44 @@ For good practice for Python package management, it is recommended to use virtua
 1. Clone the repo with `--recursive` and and cd into it:
 
     ```Shell
-    git clone --recursive git@github.com:NVlabs/dex-ycb-toolkit.git
+    git clone --recursive git@github.com:pzxszbry/dex-ycb-toolkit.git
     cd dex-ycb-toolkit
     ```
+    ```Shell
+    # create conda env
+    conda create -n dexycb python=3.8
+    conda activate dexycb
+    
+    # install pytorch
+    conda install \
+        pytorch-gpu==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 \
+        -c pytorch \
+        -c conda-forge
+    # install packages
+    conda install \
+        tqdm \
+        numpy \
+        matplotlib \
+        opencv \
+        pycocotools \
+        pyglet \
+        fcl \
+        pyyaml \
+        scikit-image \
+        tabulate \
+        scipy \
+        imageio \
+        pypng \
+        cython \
+        pyopengl \
+        triangle \
+        pillow
+    
+    pip install \
+        open3d \
+        pyrender \
+        glumpy \
+        chumpy
 
 2. Install the dex-ycb-toolkit package and dependencies:
 
