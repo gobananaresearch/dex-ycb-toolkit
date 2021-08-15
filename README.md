@@ -1,3 +1,6 @@
+# Forked from https://github.com/NVlabs/dex-ycb-toolkit and modified to meet some packages (scipy, etc..)
+
+
 # DexYCB Toolkit
 
 DexYCB Toolkit is a Python package that provides evaluation and visualization tools for the DexYCB dataset. The dataset and results were initially described in a CVPR 2021 paper:
