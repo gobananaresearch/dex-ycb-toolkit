@@ -8,7 +8,7 @@ DexYCB Toolkit is a Python package that provides evaluation and visualization to
 **DexYCB: A Benchmark for Capturing Hand Grasping of Objects**  
 Yu-Wei Chao, Wei Yang, Yu Xiang, Pavlo Molchanov, Ankur Handa, Jonathan Tremblay, Yashraj S. Narang, Karl Van Wyk, Umar Iqbal, Stan Birchfield, Jan Kautz, Dieter Fox  
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021  
-[ [paper](https://dex-ycb.github.io/assets/chao_cvpr2021.pdf) ] [ [supplementary](https://dex-ycb.github.io/assets/chao_cvpr2021_supp.pdf) ] [ [video](https://youtu.be/Q4wyBaZeBw0) ] [ [arXiv](https://arxiv.org/abs/2104.04631) ] [ [project site](https://dex-ycb.github.io) ]
+[ [paper](https://dex-ycb.github.io/assets/chao_cvpr2021.pdf) ] [ [supplementary](https://dex-ycb.github.io/assets/chao_cvpr2021_supp.pdf) ] [ [video](https://youtu.be/Q4wyBaZeBw0) ] [ [arXiv](https://arxiv.org/abs/2104.04631) ] [ [studio CAD model](https://cad.onshape.com/documents/ac141300e03f08f590fbeecb/w/ad063a3527ccd1a24d289e93/e/13380efe91e477d6c0872bdb) ] [ [studio hardware](https://docs.google.com/document/d/1bIB2AnTWlHNNe3clZrGfXYGn9XTN2JzYCer6eVQipBU) ] [ [RealSense calibration & recording guide](https://docs.google.com/document/d/1jflhWGTn4lsGj5PiJ14Q37k0xHSnkTuDJvkdFr_j-fo) ] [ [project site](https://dex-ycb.github.io) ]
 
 ### Citing DexYCB Toolkit
 
@@ -48,7 +48,7 @@ This code is tested with Python 3.7 on Linux.
 
 For good practice for Python package management, it is recommended to use virtual environments (e.g., `virtualenv` or `conda`) to ensure packages from different projects do not interfere with each other.
 
-1. Clone the repo with `--recursive` and and cd into it:
+1. Clone the repo with `--recursive` and cd into it:
 
     ```Shell
     git clone --recursive git@github.com:pzxszbry/dex-ycb-toolkit.git
